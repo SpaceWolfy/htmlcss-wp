@@ -23,7 +23,7 @@ body {
 .article {
   height: 350px;
   margin-bottom: 20px;
-  border-radius: 10px;
+  border-radius: 5px;
   position: relative;
 
   /* background scuro */
@@ -35,7 +35,7 @@ body {
 }
 
 .float-container {
-  background-color: #0086ff;
+  /* background-color: #0086ff; */
   margin-bottom: 8px;
 }
 
@@ -46,21 +46,18 @@ body {
 }
 
 footer {
-  height: 45px;
-  background-color: #8801fe;
-  margin-bottom: 20px;
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
-.float-container > header {
-  height: 60px;
-  background-color: #abcfe7;
-  width: 800px;
+footer span {
+  color: red;
+  font-size: 20px;
 }
 
 .fixediv div {
   float: left;
-  background-color: #abcfe7;
-  height: 350px;
   width: 180px;
   margin: 20px 0;
 }
@@ -112,4 +109,48 @@ nav ul li a:hover {
 .text p {
   font-size: 23px;
   color: #fff;
+}
+
+.float-container header > span {
+  color: #9c9c9c;
+  font-size: 13px;
+}
+
+.paragraph > header {
+  height: 150px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.paragraph p {
+  margin-top: 5px;
+  font-size: 12px;
+  color: #9c9c9c;
+}
+
+.one > header {
+  /* background scuro */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/img-1.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.two > header {
+  /* background scuro */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/banner-2.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.three > header {
+  /* background scuro */
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../img/img-3.jpg");
+
+  background-size: cover;
+  background-position: center;
 }
